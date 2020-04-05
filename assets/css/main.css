@@ -980,7 +980,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Play', sans-serif;
+			font-family: 'Font Awesome 5 Brands', 'Play', sans-serif;
 			font-weight: 400;
 		}
 
@@ -997,7 +997,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Play', sans-serif;
+			font-family: 'Font Awesome 5 Brands', 'Play', sans-serif;
 		}
 
 /* List */
