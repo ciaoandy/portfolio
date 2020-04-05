@@ -136,6 +136,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -162,8 +163,34 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+
+
+/* 홈페이지 배경 첫 텍스트 스타일 적용 */
+
+	.e{
+	  position: absolute;
+	  left:50%;
+	  top:50%;
+	  transform:translate(-50%,-50%);
+	}
+
+
+
+/* background 카본텍스타일 적용 */
 	body {
-		background: #242629;
+	    background:
+		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+		background-color: #131313;
+		background-size: 20px 20px;
+				}
+
+
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
